@@ -1,0 +1,19 @@
+{
+  "name": "front-end-starter",
+  "version": "1.0.0",
+  "description": "Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
